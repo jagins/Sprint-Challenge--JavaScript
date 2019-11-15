@@ -13,7 +13,12 @@ const tyrannosaurus =
   diet: 'carnivorous',
   weight: '7000kg',
   length: '12m',
-  period: 'Late Cretaceous'
+  period: 'Late Cretaceous',
+
+  roar: function()
+  {
+    return "RAWERSRARARWERSARARARRRR";
+  }
 };
 
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
@@ -52,7 +57,7 @@ console.log(tyrannosaurus.period);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-console.log();
+console.log(tyrannosaurus.roar());
 
 
 // ==== Arrays ====
@@ -115,7 +120,7 @@ The zoos want to display both the scientific name and the animal name in front o
 
 */
 const displayNames = [];
-console.log(displayNames);
+//console.log(displayNames);
 
 /* Request 2: .map()
 
@@ -124,7 +129,7 @@ The zoos need a list of all their animal's names (animal_name only) converted to
 */
 
 const lowCaseAnimalNames = [];
-console.log(lowCaseAnimalNames);
+//console.log(lowCaseAnimalNames);
 
 /* Request 3: .filter() 
 
@@ -132,7 +137,7 @@ The zoos are concerned about animals with a lower population count. Using filter
 
 */
 const lowPopulationAnimals = [];
-console.log(lowPopulationAnimals);
+//console.log(lowPopulationAnimals);
 
 /* Request 4: .reduce() 
 
@@ -140,7 +145,7 @@ The zoos need to know their total animal population across the United States. Fi
 
 */
 const populationTotal = 0;
-console.log(populationTotal);
+//console.log(populationTotal);
 
 
 /*
